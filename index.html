@@ -1,0 +1,77 @@
+<html>
+
+   <head>
+       <title>calculator</title>
+         <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/res.css" />
+      
+    </head>
+    <body>
+         <!--*************header*********************** -->
+        <header>header</header>
+         <section class="container">   <!--***********container*************-->
+               <main>
+                   <form name="mycal" class="ff">
+                        <div class="screen">
+                             <div class="operation">
+                                 <p class="op_val">
+                                     <input  name="display" type="text" class="dd" />
+                                 </p>
+                            </div>
+                            <div class="value">
+                                 <p class="va_val">
+                                     <input  name="value" type="text" />
+                                 </p>
+                            </div>
+                        </div>
+                        <div class="btns">
+                            
+                            <input type="button" value="RT" onclick="onSquart()" />  <!--pow(0000,1/2) -->
+                            <input type="button" value="DEL" onclick="del()" />
+                            <input type="button" value="AC" onclick="ac()" />
+                            <input type="button" value="ANS" onclick="ans()" />
+                            <br>
+                            <input type="button" value="^2" onclick="onSquar()" />
+                            <input type="button" class="yel" value="TAN" onclick="onTan()" />
+                            <input type="button" class="yel" value="SIN" onclick="onSin()" />
+                            <input type="button" class="yel" value="COS" onclick="onCos()" />
+                            <br>
+                            <input type="button" value="9" onclick="onShow('9')" />
+                            <input type="button" value="8" onclick="onShow('8')" />
+                            <input type="button" value="7" onclick="onShow('7')" />
+                            <input type="button" class="red" value="-" onclick="onShow('-')" />
+                            <br>
+                            <input type="button" value="6" onclick="onShow('6')" />
+                            <input type="button" value="5" onclick="onShow('5')" />
+                            <input type="button" value="4" onclick="onShow('4')" />
+                             <input type="button" class="red" value="+" onclick="onShow('+')" />
+                            <br>
+                            <input type="button" value="3" onclick="onShow('3')" />
+                            <input type="button" value="2" onclick="onShow('2')" />
+                            <input type="button" value="1" onclick="onShow('1')" />
+                             <input type="button" class="red" value="*" onclick="onShow('*')" />
+                            <br>
+                            <input type="button" value="0" onclick="onShow('0')" />
+                            <input type="button" value="." onclick="onShow('.')" />
+                            <input type="button" value="==" onclick="onEqual()" />
+                            <input type="button" class="red" value="/" onclick="onShow('/')" />
+                            <br>
+                       
+                           
+                           
+                            
+                           
+                            
+                        </div> 
+                   </form>
+                   
+               </main>
+         </section>
+         <!--******************footer********************* -->
+        <footer>
+            <p>footer</p>
+        </footer>
+        <!--******************script********************* -->
+       <script src="js/style.js"> </script>
+    </body>
+</html>
